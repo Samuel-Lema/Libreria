@@ -1,6 +1,18 @@
+package arrays;
+
+/**
+ *
+ * @author slemagonzalez
+ */
 public class ordenarArray {
    
     // Ordena un Array Simple (Descendente) - Devuelve un Array[]
+
+    /**
+     *
+     * @param orden
+     * @return Array
+     */
     
     public static int[] ordenDesc(int[] orden) {
         
@@ -26,6 +38,12 @@ public class ordenarArray {
     }
     
     // Ordena un Array 2D (Descendente) - Devuelve un Array[][]
+
+    /**
+     *
+     * @param orden
+     * @return Arrat 2D
+     */
     
     public static int[][] ordenDesc(int[][] orden) {
 
@@ -50,6 +68,13 @@ public class ordenarArray {
     }
     
     // Funcion de ordenDesc 2D (Descendente) - Devuelve un Int
+
+    /**
+     *
+     * @param orden
+     * @param row
+     * @return Integer
+     */
     
     public static int sumRow(int[][] orden, int row) {
         int total = 0;
